@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Function Prototypes
+void error(char *);
+
+
+//Global variables
+
+
+//Main function
+int main()
+{
+
+}
+
+//A function to print errors
+void error(char *msg)
+{
+  char err_msg[31];
+  strcpy(err_msg, "[!!]Fatal error ");
+  strcat(err_msg, msg);
+  perror(err_msg);
+
+  exit(1);
+}
