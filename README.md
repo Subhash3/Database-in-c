@@ -3,7 +3,7 @@
 *What this program does?*
 This program basically enables the users to signup, login and bookslots for an auditorium.
 
-*Description of file*
+*Description of files*
 1. databse.c : source code of the program written in c
 2. database  : Compiled database.c file
 3. nice.txt  : Contains some c code to get started without wasting time to type                the same stuff repeatedly.
